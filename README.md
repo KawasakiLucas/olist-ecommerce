@@ -16,57 +16,12 @@ Please feel free to contact me:
   </a>
 </p>
 
-
-<!-- TABLE OF CONTENTS -->
-<details>
-  <summary>Table of Contents</summary>
-  <ol>
-    <li>
-      <a href="#about-the-project">About The Project</a>
-      <ul>
-        <li><a href="#built-with">Built With</a></li>
-      </ul>
-    </li>
-    <li>
-      <a href="#context">Context</a>
-      <ul>
-        <li><a href="#test">Test</a></li>
-      </ul>
-    </li>
-    <li>
-      <a href="#getting-started">Getting Started</a>
-      <ul>
-        <li><a href="#installation">Installation</a></li>
-      </ul>
-    </li>
-    <li><a href="#features">Features</a></li>
-    <li><a href="#contact">Contact</a></li>
-  </ol>
-</details>
-
-
-
-## About The Project
-
-<h2 id="context" align="left">Context</h2>
-
-This dataset was provided by Olist on Kaggle. Olist connects small businesses from across Brazil to various sales channels through a single and simplified contract. These merchants can sell their products via Olist Store and utilize Olist’s logistics partners to ship directly to customers. For more information, visit their website: **[olist.com](https://olist.com/)**
-
-When a customer purchases a product from the Olist Store, the seller is notified to fulfill the order. After the customer receives the product or when the estimated delivery date passes, they receive a satisfaction survey via email. In this survey, customers can rate their purchase experience and leave comments.
-
-<h3 id="test" align="left">Test</h3>
-<br />
-en the estimated delivery date passes, they receive a satisfaction survey via email. In this survey, customers can rate their purchase experience and leave comments.
-
-
-
 <h2 align="left">Context</h2>
 
 This dataset was provided by Olist on Kaggle. Olist connects small businesses from across Brazil to various sales channels through a single and simplified contract. These merchants can sell their products via Olist Store and utilize Olist’s logistics partners to ship directly to customers. For more information, visit their website: **[olist.com](https://olist.com/)**
 
 When a customer purchases a product from the Olist Store, the seller is notified to fulfill the order. After the customer receives the product or when the estimated delivery date passes, they receive a satisfaction survey via email. In this survey, customers can rate their purchase experience and leave comments.
 
-<br />
 <h2 align="left">Dataset</h2>
 
 The dataset contains details of 100,000 orders placed between 2016 and 2018 across various marketplaces in Brazil. It includes features that provide a multi-dimensional view of each order, covering aspects such as order status, pricing, payment, freight performance, customer locations, product attributes, and customer reviews. Additionally, a geolocation dataset is available, linking Brazilian zip codes to their corresponding latitude and longitude coordinates.
@@ -100,20 +55,33 @@ This dataset has information about the customer and their location. Use it to id
 - `customer_state`: customer state
 
 
-<div id="olist_customers_dataset">
+<h3 align="left">olist_geolocation_dataset</h3>
 
-### olist_customers_dataset
+This dataset has information about Brazilian zip codes and lat/lng coordinates. Use it to plot maps and find distances between sellers and customers.
 
-This dataset has information about the customer and their location. Use it to identify unique customers in the orders dataset and to find the orders delivery location.
+- `geolocation_zip_code_prefix`: first 5 digits of zip code
+- `geolocation_lat`: latitude
+- `geolocation_lng`: longitude
+- `geolocation_city`: city name
+- `geolocation_state`: state
 
-- `customer_id`: key to the orders dataset. Each order has a unique customer_id.
-- `customer_unique_id`: unique identifier of a customer.
-- `customer_zip_code_prefix`: first five digits of customer zip code
-- `customer_city`: customer city name
-- `customer_state`: customer state
+<div id="olist_order_items_dataset">
 
-<div id="olist_customers_dataset">
+### olist_order_items_dataset
 
+This dataset includes data about the items purchased within each order.
+
+⚠️ If 3 items are purchased in an order, the dataset will display one row per item. If the same product is bought twice, 2 rows will be displayed.
+
+- `order_id`: order unique identifier
+- `order_item_id`: sequential number identifying number of items included in the same order.
+- `product_id`: product unique identifier
+- `seller_id`: seller unique identifier
+- `shipping_limit_date`: shows the seller shipping limit date for handling the order over to the logistic partner.
+- `price`: item price
+- `freight_value`: item freight value (if an order has more than one item the freight value is split between items)
+
+<div id="olist_order_payments_dataset">
 
 
 
