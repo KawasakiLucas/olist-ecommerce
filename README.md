@@ -85,9 +85,14 @@ Based on the EDA results....
 <h2 align="left">Tools</h2>
 
 
-<img align="left" width="30" height="30" src="https://github.com/KawasakiLucas/olist-ecommerce/blob/master/images/svg/python.svg">
+<img align="left" width="40" height="40" src="https://github.com/KawasakiLucas/olist-ecommerce/blob/master/images/svg/python.svg">
+<img align="left" width="40" height="40" src="https://github.com/KawasakiLucas/olist-ecommerce/blob/master/images/svg/pandas.svg">
+<img align="left" width="40" height="40" src="https://github.com/KawasakiLucas/olist-ecommerce/blob/master/images/svg/numpy.svg">
+<img align="left" width="40" height="40" src="https://github.com/KawasakiLucas/olist-ecommerce/blob/master/images/svg/git.svg">
+<img align="left" width="40" height="40" src="https://github.com/KawasakiLucas/olist-ecommerce/blob/master/images/svg/jupyter.svg">
+<img align="left" width="40" height="40" src="https://github.com/KawasakiLucas/olist-ecommerce/blob/master/images/svg/plot_ly.svg">
 
-
+<h2 align="left">Tools</h2>
 
 <img align="left" src="https://skillicons.dev/icons?i=python,flask">
 Backend framework to handle routes for home, about, portfolio and contact pages, along with email configurations using Flask-Mail.
