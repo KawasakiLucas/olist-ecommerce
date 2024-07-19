@@ -92,24 +92,7 @@ Based on the EDA results....
 <img align="left" width="40" height="40" src="https://github.com/KawasakiLucas/olist-ecommerce/blob/master/images/svg/jupyter.svg">
 <img align="left" width="40" height="40" src="https://github.com/KawasakiLucas/olist-ecommerce/blob/master/images/svg/plot_ly.svg">
 
-<h2 align="left">Tools</h2>
-
-<img align="left" src="https://skillicons.dev/icons?i=python,flask">
-Backend framework to handle routes for home, about, portfolio and contact pages, along with email configurations using Flask-Mail.
-
-<img align="left" src="https://skillicons.dev/icons?i=javascript">
-
-For dynamic content updates, language switching, storing user preferences, and handling form interactions.
-
-<img align="left" src="https://skillicons.dev/icons?i=css">
-
-Styling for the layout, design, and responsive features to ensure the website is visually appealing across different devices.
-
-<img align="left" src="https://skillicons.dev/icons?i=html">
-
-Modular templates for different sections of the website, ensuring consistency and easy updates.
-
-
+<br />
 
 
 
