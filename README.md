@@ -4,7 +4,7 @@
 
 Image: **[olist.com](https://olist.com/)**
 
-<h2 align="left">About this project</h2>
+<h2 align="left">About the project</h2>
 
 This repository contains the code, analysis and some insights conducted on Brazilian E-commerce Public Dataset of orders made at Olist Store.
 
@@ -47,7 +47,6 @@ There are 9 csv files (~120mb) placed on data/csv folder as follow:
 
 <p align="left"><a href="https://github.com/KawasakiLucas/olist-ecommerce/tree/master/data">You can check the dataset information here -></a></p>
 
-<br />
 <h2 align="left">Project Structure</h2>
 
 The project is going to be divided in 3 steps:
@@ -83,6 +82,27 @@ Based on the EDA results....
 <p align="left"><a href="https://github.com/KawasakiLucas/olist-ecommerce/tree/master/data">You can check Conclusion and Potential Solutions Notebook here -></a></p>
 
 
+<h2 align="left">Tools</h2>
+
+
+<img align="left" width="30" height="30" src="https://github.com/KawasakiLucas/olist-ecommerce/blob/master/images/svg/python.svg">
+
+
+
+<img align="left" src="https://skillicons.dev/icons?i=python,flask">
+Backend framework to handle routes for home, about, portfolio and contact pages, along with email configurations using Flask-Mail.
+
+<img align="left" src="https://skillicons.dev/icons?i=javascript">
+
+For dynamic content updates, language switching, storing user preferences, and handling form interactions.
+
+<img align="left" src="https://skillicons.dev/icons?i=css">
+
+Styling for the layout, design, and responsive features to ensure the website is visually appealing across different devices.
+
+<img align="left" src="https://skillicons.dev/icons?i=html">
+
+Modular templates for different sections of the website, ensuring consistency and easy updates.
 
 
 
@@ -91,6 +111,12 @@ Based on the EDA results....
 
 
 
+
+
+
+
+
+CHECK THIS!!!!
 
 
 
@@ -125,45 +151,6 @@ Acknowledgements
 Thanks to Olist for releasing this dataset.
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-<h2 align="left">Dataset</h2>
-
-The dataset used in this project is provided by OLIST and contains information about customer orders, products, sellers, and reviews. The data is stored in multiple CSV files.
-
-<br />
-<h2 align="left">Analysis</h2>
-
-<img align="left" src="https://skillicons.dev/icons?i=python,flask">
-
-Backend framework to handle routes for home, about, portfolio and contact pages, along with email configurations using Flask-Mail.
-
-<img align="left" src="https://skillicons.dev/icons?i=javascript">
-
-For dynamic content updates, language switching, storing user preferences, and handling form interactions.
-
-<img align="left" src="https://skillicons.dev/icons?i=css">
-
-Styling for the layout, design, and responsive features to ensure the website is visually appealing across different devices.
-
-<img align="left" src="https://skillicons.dev/icons?i=html">
-
-Modular templates for different sections of the website, ensuring consistency and easy updates.
-
-<br />
-
-This project demonstrates how to create a dynamic, multilingual, and responsive personal portfolio using modern web technologies.
 
 
 <br />
