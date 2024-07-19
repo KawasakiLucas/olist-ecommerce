@@ -34,6 +34,20 @@ Source: **[Kaggle - Brazilian E-Commerce Public Dataset by Olist](https://www.ka
 
 There are 9 csv files (~120mb) placed on data/csv folder as follow:
 
+- Customers Dataset
+- Geolocation Dataset
+- Order items Dataset
+- Order Payments Dataset
+- Order Reviews Dataset
+- Orders Dataset
+- Products Dataset
+- Sellers Dataset
+- Product Category Name Translation
+
+Source: **[You can check the dataset information here ->](https://github.com/KawasakiLucas/olist-ecommerce/tree/master/data)**
+
+
+
 - <a href="#olist_customers_dataset">**olist_customers_dataset**</a>
 - <a href="#olist_geolocation_dataset">**olist_geolocation_dataset**</a>
 - <a href="#olist_order_items_dataset">**olist_order_items_dataset**</a>
