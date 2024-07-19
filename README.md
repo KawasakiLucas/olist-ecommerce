@@ -1,7 +1,8 @@
 
 <h1 align="center">OLIST E-Commerce</h1>
 
-<img align="center" src="https://github.com/KawasakiLucas/my-portfolio-website/blob/master/images/OLIST.svg">
+<img align="center" src="https://github.com/KawasakiLucas/olist-ecommerce/blob/master/images/OLIST.svg">
+
 Source: **[olist.com](https://olist.com/)**
 
 This repository contains the code, analysis and some insights conducted on Brazilian E-commerce Public Dataset of orders made at Olist Store.
@@ -17,7 +18,7 @@ Please feel free to contact me:
 
 <h2 align="left">Context</h2>
 
-This dataset was provided by Olist on Kaggle. Olist connects small businesses from across Brazil to various sales channels through a single and simplified contract. These merchants can sell their products via the Olist Store and utilize Olist’s logistics partners to ship directly to customers. For more information, visit our website: www.olist.com.
+This dataset was provided by Olist on Kaggle. Olist connects small businesses from across Brazil to various sales channels through a single and simplified contract. These merchants can sell their products via Olist Store and utilize Olist’s logistics partners to ship directly to customers. For more information, visit their website: **[olist.com](https://olist.com/)**
 
 When a customer purchases a product from the Olist Store, the seller is notified to fulfill the order. After the customer receives the product or when the estimated delivery date passes, they receive a satisfaction survey via email. In this survey, customers can rate their purchase experience and leave comments.
 
@@ -29,7 +30,44 @@ The dataset contains details of 100,000 orders placed between 2016 and 2018 acro
 The data is organized into multiple datasets for improved clarity and structure. Please refer to the following data schema:
 
 <img align="center" src="https://github.com/KawasakiLucas/my-portfolio-website/blob/master/images/olist-data-scheme.png">
-Source: **[Kaggle - Brazilian E-Commerce Public Dataset by Olist](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce?select=olist_customers_dataset.csv)**
+
+Source: **[Kaggle - Brazilian E-Commerce Public Dataset by Olist](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce)**
+
+There are 9 csv files (~120mb) placed on data/csv folder as follow:
+
+- <a href="#olist_customers_dataset">**olist_customers_dataset**</a>
+- <a href="#olist_geolocation_dataset">**olist_geolocation_dataset**</a>
+- <a href="#olist_order_items_dataset">**olist_order_items_dataset**</a>
+- <a href="#olist_order_payments_dataset">**olist_order_payments_dataset**</a>
+- <a href="#olist_order_reviews_dataset">**olist_order_reviews_dataset**</a>
+- <a href="#olist_orders_dataset">**olist_orders_dataset**</a>
+- <a href="#olist_products_dataset">**olist_products_dataset**</a>
+- <a href="#olist_sellers_dataset">**olist_sellers_dataset**</a>
+- <a href="#product_category_name_translation">**product_category_name_translation**</a>
+
+<div id="olist_customers_dataset">
+
+### olist_customers_dataset
+
+This dataset has information about the customer and their location. Use it to identify unique customers in the orders dataset and to find the orders delivery location.
+
+- `customer_id`: key to the orders dataset. Each order has a unique customer_id.
+- `customer_unique_id`: unique identifier of a customer.
+- `customer_zip_code_prefix`: first five digits of customer zip code
+- `customer_city`: customer city name
+- `customer_state`: customer state
+
+<div id="olist_customers_dataset">
+
+
+
+
+
+
+
+
+
+
 
 <br />
 <h2 align="left">Project Structure</h2>
