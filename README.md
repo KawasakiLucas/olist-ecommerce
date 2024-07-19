@@ -1,9 +1,10 @@
-
-<h1 align="center">OLIST E-Commerce</h1>
+<h1 name="readme-top" align="center">OLIST E-Commerce</h1>
 
 <img align="center" src="https://github.com/KawasakiLucas/olist-ecommerce/blob/master/images/OLIST.svg">
 
-Source: **[olist.com](https://olist.com/)**
+Image: **[olist.com](https://olist.com/)**
+
+<h2 align="left">About this project</h2>
 
 This repository contains the code, analysis and some insights conducted on Brazilian E-commerce Public Dataset of orders made at Olist Store.
 
@@ -30,7 +31,7 @@ The data is organized into multiple datasets for improved clarity and structure.
 
 <img align="center" src="https://github.com/KawasakiLucas/olist-ecommerce/blob/master/images/olist-data-scheme.png">
 
-Source: **[Kaggle - Brazilian E-Commerce Public Dataset by Olist](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce)**
+Image: **[Kaggle - Brazilian E-Commerce Public Dataset by Olist](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce)**
 
 There are 9 csv files (~120mb) placed on data/csv folder as follow:
 
@@ -44,22 +45,26 @@ There are 9 csv files (~120mb) placed on data/csv folder as follow:
 - Sellers Dataset
 - Product Category Name Translation
 
-**[You can check the dataset information here ->](https://github.com/KawasakiLucas/olist-ecommerce/tree/master/data)**
-
 <p align="left"><a href="https://github.com/KawasakiLucas/olist-ecommerce/tree/master/data">You can check the dataset information here -></a></p>
-
 
 <br />
 <h2 align="left">Project Structure</h2>
 
-The project is going to be divided in 5 steps:
+The project is going to be divided in 3 steps:
 
--  Exploratory Data Analysis (EDA):
-• Data cleaning and preprocessing
-• Descriptive statistics and summary metrics
-• Identifying key trends, patterns, and anomalies
+-  Exploratory Data Analysis (EDA)
+-  Statistical Inference
+-  Conclusion and Potential Solutions
 
--  Statistical Inference:
+<h3 align="left">Exploratory Data Analysis (EDA):</h3>
+
+-  Data cleaning and preprocessing
+-  Descriptive statistics and summary metrics
+-  Identifying key trends, patterns, and anomalies
+
+<p align="left"><a href="https://github.com/KawasakiLucas/olist-ecommerce/tree/master/data">You can check Exploratory Data Analysis Notebook here -></a></p>
+
+<h3 align="left">Statistical Inference:</h3>
 
 Statistical Inference - how to improve business margin, given that bad reviews costs a lot of money ?”
 As the name implies, statistical inference is all about inferring values based on a limited sample of observations. We will learn how to leverage probabilities and mathematical theorems (see module 3) to try and understand how to extrapolate data from limited samples of observations, as accurately as we can.
@@ -68,22 +73,14 @@ Statistical inference involves making predictions based on a limited set of obse
 
 To analyse this data we are going to use Linear and Logistic Regression methods to see how different features influence each other.
 
+<p align="left"><a href="https://github.com/KawasakiLucas/olist-ecommerce/tree/master/data">You can check Statistical Inference Notebook here -></a></p>
 
--  Conclusion and Potential Solutions:
+<h3 align="left">Conclusion and Potential Solutions:</h3>
 
 Based on the EDA results....
 
 
-
-
-
-
-
-
-
-
-
-
+<p align="left"><a href="https://github.com/KawasakiLucas/olist-ecommerce/tree/master/data">You can check Conclusion and Potential Solutions Notebook here -></a></p>
 
 
 
@@ -167,3 +164,7 @@ Modular templates for different sections of the website, ensuring consistency an
 <br />
 
 This project demonstrates how to create a dynamic, multilingual, and responsive personal portfolio using modern web technologies.
+
+
+<br />
+<p align="right"><a href="#readme-top">back to the top -></a></p>

@@ -7,7 +7,7 @@ The data is organized into multiple datasets for improved clarity and structure.
 
 <img align="center" src="https://github.com/KawasakiLucas/olist-ecommerce/blob/master/images/olist-data-scheme.png">
 
-Source: **[Kaggle - Brazilian E-Commerce Public Dataset by Olist](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce)**
+Image: **[Kaggle - Brazilian E-Commerce Public Dataset by Olist](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce)**
 
 There are 9 csv files (~120mb) placed on data/csv folder as follow:
 
@@ -25,6 +25,7 @@ There are 9 csv files (~120mb) placed on data/csv folder as follow:
 <h2 align="left">olist_customers_dataset</h2>
 
 This dataset has information about the customer and their location. Use it to identify unique customers in the orders dataset and to find the orders delivery location.
+Each order is assigned to a unique customer_id. This means that the same customer will get different ids for different orders. The purpose of having a customer_unique_id on the dataset is to allow you to identify customers that made repurchases at the store. Otherwise you would find that each order had a different customer associated with.
 
 - `customer_id`: key to the orders dataset. Each order has a unique customer_id.
 - `customer_unique_id`: unique identifier of a customer.
@@ -47,7 +48,11 @@ This dataset has information about Brazilian zip codes and lat/lng coordinates. 
 
 This dataset includes data about the items purchased within each order.
 
-⚠️ If 3 items are purchased in an order, the dataset will display one row per item. If the same product is bought twice, 2 rows will be displayed.
+If 3 items are purchased in an order, the dataset will display one row per item. If the same product is bought twice, 2 rows will be displayed. Each item has the freight calculated accordingly to its measures and weight. To get the total freight value for each order you just have to sum.
+
+The total order_item value is: 21.33 * 3 = 63.99
+The total freight value is: 15.10 * 3 = 45.30
+The total order value (product + freight) is: 45.30 + 63.99 = 109.29
 
 - `order_id`: order unique identifier
 - `order_item_id`: sequential number identifying number of items included in the same order.
@@ -116,7 +121,6 @@ This dataset includes data about the sellers that fulfilled orders made at Olist
 - `seller_zip_code_prefix`: first 5 digits of seller zip code
 - `seller_city`: seller city name
 - `seller_state`: seller state
-
 
 <h2 align="left">product_category_name_translation</h2>
 
