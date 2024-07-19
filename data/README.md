@@ -126,4 +126,4 @@ Translates the product_category_name to English.
 - `product_category_name_english`: category name in English
 
 <br />
-<p align="right">(<a href="https://github.com/KawasakiLucas/olist-ecommerce/tree/master">back to main page</a>)</p>
+<p align="right"><a href="https://github.com/KawasakiLucas/olist-ecommerce">back to main page -></a></p>

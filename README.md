@@ -44,25 +44,9 @@ There are 9 csv files (~120mb) placed on data/csv folder as follow:
 - Sellers Dataset
 - Product Category Name Translation
 
-Source: **[You can check the dataset information here ->](https://github.com/KawasakiLucas/olist-ecommerce/tree/master/data)**
+**[You can check the dataset information here ->](https://github.com/KawasakiLucas/olist-ecommerce/tree/master/data)**
 
-
-
-- <a href="#olist_customers_dataset">**olist_customers_dataset**</a>
-- <a href="#olist_geolocation_dataset">**olist_geolocation_dataset**</a>
-- <a href="#olist_order_items_dataset">**olist_order_items_dataset**</a>
-- <a href="#olist_order_payments_dataset">**olist_order_payments_dataset**</a>
-- <a href="#olist_order_reviews_dataset">**olist_order_reviews_dataset**</a>
-- <a href="#olist_orders_dataset">**olist_orders_dataset**</a>
-- <a href="#olist_products_dataset">**olist_products_dataset**</a>
-- <a href="#olist_sellers_dataset">**olist_sellers_dataset**</a>
-- <a href="#product_category_name_translation">**product_category_name_translation**</a>
-
-
-
-
-
-
+<p align="left"><a href="https://github.com/KawasakiLucas/olist-ecommerce/tree/master/data">You can check the dataset information here -></a></p>
 
 
 <br />
