@@ -29,7 +29,7 @@ The dataset contains details of 100,000 orders placed between 2016 and 2018 acro
 
 The data is organized into multiple datasets for improved clarity and structure. Please refer to the following data schema:
 
-<img align="center" src="https://github.com/KawasakiLucas/my-portfolio-website/blob/master/images/olist-data-scheme.png">
+<img align="center" src="https://github.com/KawasakiLucas/olist-ecommerce/blob/master/images/olist-data-scheme.png">
 
 Source: **[Kaggle - Brazilian E-Commerce Public Dataset by Olist](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce)**
 
@@ -46,6 +46,15 @@ There are 9 csv files (~120mb) placed on data/csv folder as follow:
 - <a href="#product_category_name_translation">**product_category_name_translation**</a>
 
 <h3 align="left">olist_customers_dataset</h3>
+
+This dataset has information about the customer and their location. Use it to identify unique customers in the orders dataset and to find the orders delivery location.
+
+- `customer_id`: key to the orders dataset. Each order has a unique customer_id.
+- `customer_unique_id`: unique identifier of a customer.
+- `customer_zip_code_prefix`: first five digits of customer zip code
+- `customer_city`: customer city name
+- `customer_state`: customer state
+
 
 <div id="olist_customers_dataset">
 
