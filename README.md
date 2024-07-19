@@ -48,21 +48,15 @@ Please feel free to contact me:
 
 ## About The Project
 
-<div id="context">
-
-
-<h2 align="left">Context</h2>
+<h2 id="context" align="left">Context</h2>
 
 This dataset was provided by Olist on Kaggle. Olist connects small businesses from across Brazil to various sales channels through a single and simplified contract. These merchants can sell their products via Olist Store and utilize Olist’s logistics partners to ship directly to customers. For more information, visit their website: **[olist.com](https://olist.com/)**
 
 When a customer purchases a product from the Olist Store, the seller is notified to fulfill the order. After the customer receives the product or when the estimated delivery date passes, they receive a satisfaction survey via email. In this survey, customers can rate their purchase experience and leave comments.
 
-<div id="test">
-<h3 align="left">Test</h3>
-</div>
+<h3 id="test" align="left">Test</h3>
 
-</div>
-
+en the estimated delivery date passes, they receive a satisfaction survey via email. In this survey, customers can rate their purchase experience and leave comments.
 
 
 
