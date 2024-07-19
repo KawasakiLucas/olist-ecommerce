@@ -45,6 +45,8 @@ There are 9 csv files (~120mb) placed on data/csv folder as follow:
 - <a href="#olist_sellers_dataset">**olist_sellers_dataset**</a>
 - <a href="#product_category_name_translation">**product_category_name_translation**</a>
 
+<h3 align="left">olist_customers_dataset</h3>
+
 <div id="olist_customers_dataset">
 
 ### olist_customers_dataset
