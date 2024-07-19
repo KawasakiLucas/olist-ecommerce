@@ -92,7 +92,7 @@ Based on the EDA results....
 <img align="left" width="40" height="40" src="https://github.com/KawasakiLucas/olist-ecommerce/blob/master/images/svg/jupyter.svg">
 <img align="left" width="40" height="40" src="https://github.com/KawasakiLucas/olist-ecommerce/blob/master/images/svg/plot_ly.svg">
 
-<br />
+<h2 align="left"></h2>
 
 
 
