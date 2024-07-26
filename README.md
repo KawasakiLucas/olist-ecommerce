@@ -33,7 +33,7 @@ Please feel free to contact me:
   </a>
 </p>
 
-![stack Overflow](https://github.com/KawasakiLucas/olist-ecommerce/blob/master/images/github-mark.png)
+![https://github.com/KawasakiLucas/olist-ecommerce/blob/master/images/github-mark.png](https://www.linkedin.com/in/lucas-kawasaki/)
 
 <h2 align="left">Context</h2>
 
