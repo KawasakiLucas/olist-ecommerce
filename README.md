@@ -33,8 +33,7 @@ Please feel free to contact me:
   </a>
 </p>
 
-![https://www.linkedin.com/in/lucas-kawasaki/](https://github.com/KawasakiLucas/olist-ecommerce/blob/master/images/github-mark.png)
-
+<br />
 <h2 align="left">Context</h2>
 
 This dataset was provided by Olist on Kaggle. Olist connects small businesses from across Brazil to various sales channels through a single and simplified contract. These merchants can sell their products via Olist Store and utilize Olist’s logistics partners to ship directly to customers. For more information, visit their website: **[olist.com](https://olist.com/)**
