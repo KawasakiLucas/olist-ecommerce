@@ -24,12 +24,12 @@ Please feel free to contact me:
 </p>
 <p align="left">
   <a href="https://www.linkedin.com/in/lucas-kawasaki/">
-    <img align="left" width="40" height="40" src="https://github.com/KawasakiLucas/olist-ecommerce/blob/master/images/Wantedly_Mark_LightBG.png">
+    <img align="left" width="40" height="40" src="https://github.com/KawasakiLucas/olist-ecommerce/blob/master/images/Wantedly_Mark_DarkBG.png">
   </a>
 </p>
 <p align="left">
   <a href="https://www.linkedin.com/in/lucas-kawasaki/">
-    <img align="left" width="40" height="40" src="https://github.com/KawasakiLucas/olist-ecommerce/blob/master/images/github-mark.png">
+    <img align="left" width="40" height="40" src="https://github.com/KawasakiLucas/olist-ecommerce/blob/master/images/github-mark-white.png">
   </a>
 </p>
 
