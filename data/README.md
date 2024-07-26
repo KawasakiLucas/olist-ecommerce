@@ -1,7 +1,7 @@
 
 <h1 align="center">OLIST DATASET</h1>
 
-The dataset contains details of 100,000 orders placed between 2016 and 2018 across various marketplaces in Brazil. It includes features that provide a multi-dimensional view of each order, covering aspects such as order status, pricing, payment, freight performance, customer locations, product attributes, and customer reviews. Additionally, a geolocation dataset is available, linking Brazilian zip codes to their corresponding latitude and longitude coordinates.
+The dataset contains details of 100,000 orders placed between 2016 and 2018 across various marketplaces in Brazil. It includes features that provide a multi-dimensional view of each order, covering aspects such as order status, pricing, payment, freight performance, customer locations, product attributes, and customer reviews. Additionally, a geolocation dataset is available linking Brazilian zip codes to their corresponding latitude and longitude coordinates.
 
 The data is organized into multiple datasets for improved clarity and structure. Please refer to the following data schema:
 

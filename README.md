@@ -17,6 +17,24 @@ Please feel free to contact me:
   </a>
 </p>
 
+<p align="left">
+  <a href="https://www.linkedin.com/in/lucas-kawasaki/">
+    <img align="left" width="40" height="40" src="https://github.com/KawasakiLucas/olist-ecommerce/blob/master/images/LI-In-Bug.png">
+  </a>
+</p>
+<p align="left">
+  <a href="https://www.linkedin.com/in/lucas-kawasaki/">
+    <img align="left" width="40" height="40" src="https://github.com/KawasakiLucas/olist-ecommerce/blob/master/images/Wantedly_Mark_LightBG.png">
+  </a>
+</p>
+<p align="left">
+  <a href="https://www.linkedin.com/in/lucas-kawasaki/">
+    <img align="left" width="40" height="40" src="https://github.com/KawasakiLucas/olist-ecommerce/blob/master/images/github-mark.png">
+  </a>
+</p>
+
+
+
 <h2 align="left">Context</h2>
 
 This dataset was provided by Olist on Kaggle. Olist connects small businesses from across Brazil to various sales channels through a single and simplified contract. These merchants can sell their products via Olist Store and utilize Olist’s logistics partners to ship directly to customers. For more information, visit their website: **[olist.com](https://olist.com/)**
@@ -25,7 +43,7 @@ When a customer purchases a product from the Olist Store, the seller is notified
 
 <h2 align="left">Dataset</h2>
 
-The dataset contains details of 100,000 orders placed between 2016 and 2018 across various marketplaces in Brazil. It includes features that provide a multi-dimensional view of each order, covering aspects such as order status, pricing, payment, freight performance, customer locations, product attributes, and customer reviews. Additionally, a geolocation dataset is available, linking Brazilian zip codes to their corresponding latitude and longitude coordinates.
+The dataset contains details of 100,000 orders placed between 2016 and 2018 across various marketplaces in Brazil. It includes features that provide a multi-dimensional view of each order, covering aspects such as order status, pricing, payment, freight performance, customer locations, product attributes, and customer reviews. Additionally, a geolocation dataset is available linking Brazilian zip codes to their corresponding latitude and longitude coordinates.
 
 The data is organized into multiple datasets for improved clarity and structure. Please refer to the following data schema:
 
