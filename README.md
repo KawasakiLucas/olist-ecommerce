@@ -13,22 +13,16 @@ The primary goal is to find ways to increase customer satisfaction and profit ma
 Please feel free to contact me:
 <p align="left">
   <a href="https://www.linkedin.com/in/lucas-kawasaki/">
-    <img src="https://skillicons.dev/icons?i=linkedin" />
-  </a>
-</p>
-
-<p align="left">
-  <a href="https://www.linkedin.com/in/lucas-kawasaki/">
     <img align="left" width="40" height="40" src="https://github.com/KawasakiLucas/olist-ecommerce/blob/master/images/LI-In-Bug.png">
   </a>
 </p>
 <p align="left">
-  <a href="https://www.linkedin.com/in/lucas-kawasaki/">
+  <a href="https://www.wantedly.com/id/lucas_kawasaki">
     <img align="left" width="40" height="40" src="https://github.com/KawasakiLucas/olist-ecommerce/blob/master/images/Wantedly_Mark_DarkBG.png">
   </a>
 </p>
 <p align="left">
-  <a href="https://www.linkedin.com/in/lucas-kawasaki/">
+  <a href="https://github.com/KawasakiLucas/portfolio">
     <img align="left" width="40" height="40" src="https://github.com/KawasakiLucas/olist-ecommerce/blob/master/images/github-mark-white.png">
   </a>
 </p>
@@ -78,25 +72,18 @@ The project is going to be divided in 3 steps:
 -  Descriptive statistics and summary metrics
 -  Identifying key trends, patterns, and anomalies
 
-<p align="left"><a href="https://github.com/KawasakiLucas/olist-ecommerce/tree/master/data">You can check Exploratory Data Analysis Notebook here -></a></p>
-
 <h3 align="left">Statistical Inference:</h3>
 
-Statistical Inference - how to improve business margin, given that bad reviews costs a lot of money ?”
-As the name implies, statistical inference is all about inferring values based on a limited sample of observations. We will learn how to leverage probabilities and mathematical theorems (see module 3) to try and understand how to extrapolate data from limited samples of observations, as accurately as we can.
-
-Statistical inference involves making predictions based on a limited set of observations. This module teaches you how to use probabilities and mathematical theorems to extrapolate data from samples accurately.
-
-To analyse this data we are going to use Linear and Logistic Regression methods to see how different features influence each other.
-
-<p align="left"><a href="https://github.com/KawasakiLucas/olist-ecommerce/tree/master/data">You can check Statistical Inference Notebook here -></a></p>
+-  Investigate the orders and their associated review score.
+-  Find sellers who have repeatedly been underperforming vs. others and understand why.
+-  Find product categories that repeatedly underperform vs. others.
 
 <h3 align="left">Conclusion and Potential Solutions:</h3>
 
-Based on the EDA results....
+-  How could Olist improve its profit?
+-  Should Olist remove under-performing sellers from its marketplace?
 
-
-<p align="left"><a href="https://github.com/KawasakiLucas/olist-ecommerce/tree/master/data">You can check Conclusion and Potential Solutions Notebook here -></a></p>
+<p align="left"><a href="https://github.com/KawasakiLucas/olist-ecommerce/tree/master/analysis">You can check the analysis here -></a></p>
 
 
 <h2 align="left">Tools</h2>
@@ -111,52 +98,10 @@ Based on the EDA results....
 
 <h2 align="left"></h2>
 
+<br />
+<h2 align="left">Acknowledgements</h2>
 
-
-
-
-
-
-
-
-
-
-CHECK THIS!!!!
-
-
-
-
-
-
-Classified Dataset
-We had previously released a classified dataset, but we removed it at Version 6. We intend to release it again as a new dataset with a new data schema. While we don't finish it, you may use the classified dataset available at the Version 5 or previous.
-
-Inspiration
-Here are some inspiration for possible outcomes from this dataset.
-
-NLP:
-This dataset offers a supreme environment to parse out the reviews text through its multiple dimensions.
-
-Clustering:
-Some customers didn't write a review. But why are they happy or mad?
-
-Sales Prediction:
-With purchase date information you'll be able to predict future sales.
-
-Delivery Performance:
-You will also be able to work through delivery performance and find ways to optimize delivery times.
-
-Product Quality:
-Enjoy yourself discovering the products categories that are more prone to customer insatisfaction.
-
-Feature Engineering:
-Create features from this rich dataset or attach some external public information to it.
-
-Acknowledgements
 Thanks to Olist for releasing this dataset.
-
-
-
 
 <br />
 <p align="right"><a href="#readme-top">back to the top -></a></p>
